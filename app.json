@@ -1,0 +1,12 @@
+{
+  "name": "crudnative",
+  "displayName": "crudnative",
+  "expo": {
+    "name": "crudnative",
+    "slug": "crudnative",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
