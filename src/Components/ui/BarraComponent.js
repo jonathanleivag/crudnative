@@ -7,6 +7,7 @@ export const BarraComponent = ({ navigation, route }) => {
 
   return (
     <Button
+      icon="plus-circle"
       color={buttonColor}
       onPress={() => navigation.navigate("NuevoCliente")}
     >
