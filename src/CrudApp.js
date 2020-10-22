@@ -1,10 +1,11 @@
-import React from "react";
-import { Text, View } from "react-native";
+import 'react-native-gesture-handler';
+import React, { Fragment } from "react";
+import { RouterApp } from "./routers/RouterApp";
 
 export const CrudApp = () => {
   return (
-    <View>
-      <Text>CrudApp.js</Text>
-    </View>
+    <Fragment>
+      <RouterApp />
+    </Fragment>
   );
 };
