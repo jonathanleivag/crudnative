@@ -1,13 +1,8 @@
 import "react-native-gesture-handler";
 import React, { Fragment } from "react";
 import { RouterApp } from "./routers/RouterApp";
-import { DefaultTheme, Provider as PaperProvider } from "react-native-paper";
-
-const theme = {
-  ...DefaultTheme,
-};
-
-console.log(theme);
+import { Provider as PaperProvider } from "react-native-paper";
+import { theme } from "./assets/styles/theme";
 
 export const CrudApp = () => {
   return (
