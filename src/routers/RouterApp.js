@@ -10,9 +10,6 @@ import { DetalleCliente } from "../Views/DetalleCliente";
 // themes
 import { theme } from "../assets/styles/theme";
 
-// components
-
-import { BarraComponent } from "../Components/ui/BarraComponent";
 
 const Stack = createStackNavigator();
 
@@ -32,15 +29,6 @@ export const RouterApp = () => {
           <Stack.Screen
             name="Inicio"
             component={InicioScreen}
-            options={({ navigation, route }) => ({
-              headerLeft: (props) => (
-                <BarraComponent
-                  {...props}
-                  navigation={navigation}
-                  route={route}
-                />
-              ),
-            })}
           />
 
           <Stack.Screen

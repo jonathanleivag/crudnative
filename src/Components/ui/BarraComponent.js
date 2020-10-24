@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-native-paper";
 import { theme } from "../../assets/styles/theme";
-export const BarraComponent = ({ navigation, route }) => {
+export const BarraComponent = ({ navigation }) => {
   // colors
   const { buttonColor } = theme.colors;
 
